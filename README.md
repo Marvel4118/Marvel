@@ -31,6 +31,7 @@ Week 4: Testing, debugging and final submission.
 - Services  
 - Enquiry  
 - Contact  
+  <img width="759" height="546" alt="Screenshot 2026-04-22 103735" src="https://github.com/user-attachments/assets/3ea92e9b-1e3d-4c70-a381-2329629d873b" />
 
 ## Changelog
 Version 1.0  
