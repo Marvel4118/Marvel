@@ -1,4 +1,4 @@
-# Marvel POEWEDE Project
+# Marvel (POE WEDE Project)
 
 # Sweet Rise Bakery Website
 
@@ -14,7 +14,7 @@ Sweet Rise Bakery Website Development
 ## Project Overview
 This project focuses on developing a website for Sweet Rise Bakery which is a small home based business. The aim of the website is to provide an online platform where customers can view products and services and send enquiries easily. The website also helps improve the bakery’s online presence and makes communication with customers more structured. 
 
-Part 1
+##Part 1
 ## Website Goals and Objectives
 The main goal of the website is to move customer enquiries from WhatsApp to a more organised platform. The website is designed to display the bakery’s products and services clearly and allow customers to submit enquiries online. Another objective is to attract new customers and improve engagement by making the website easy to navigate and visually appealing.
 
@@ -31,12 +31,9 @@ Week 4: Testing, debugging and final submission.
 Assessment: Part 2 – CSS Styling and Responsive Design
 Project Overview
 
-Sweet Rise Bakery is a bakery website developed to provide customers with information about the bakery’s products and services. The website was designed to create a visually appealing and user-friendly online presence for the bakery while improving accessibility and responsiveness across multiple devices.
-
-The website includes several pages that allow users to navigate through bakery information, products, enquiries, and contact details in a clear and organised manner. Website Goals and Objectives
+Sweet Rise Bakery is a bakery website developed to provide customers with information about the bakery’s products and services. The website was designed to create a visually appealing and user-friendly online presence for the bakery while improving accessibility and responsiveness across multiple devices. The website includes several pages that allow users to navigate through bakery information, products, enquiries, and contact details in a clear and organised manner. Website Goals and Objectives. in part2 I made several improvements on the website styling such as the navigation layout in the homnepage as well as adding the images on the folders that now display in the website, I also added the order now button that is required with the instructions given in part 2.
 
 The primary goal of the website is to establish a professional online presence for Sweet Rise Bakery. The website aims to:
-
 Promote bakery products and services
 Improve customer engagement
 Provide easy navigation for users
@@ -45,7 +42,6 @@ Create a visually appealing bakery-themed design
 Improve accessibility across desktop, tablet, and mobile devices Part 2 Improvements
 
 Several improvements were implemented during Part 2 of the project to enhance the visual appearance and functionality of the website.
-
 These improvements include:
 
 Creation of an external CSS stylesheet
@@ -58,39 +54,31 @@ Improved spacing, alignment, and layout structure
 Button styling and interactive effects
 Improved readability and user experience
 
-The website design uses a bakery-themed colour palette consisting of:
-
+#The website design uses a bakery-themed colour palette consisting of:
 Baby pink
 Cream
 Brown
 Gold accents
+~These colours were selected to create a warm, welcoming, and modern bakery aesthetic. 
 
-These colours were selected to create a warm, welcoming, and modern bakery aesthetic. 
-
-Technologies Used
-
+Technologies Use
 The following technologies were used to develop the website:
-
 HTML5
 CSS3
 Visual Studio Code
 GitHub
-Responsive Design
 
+#Responsive Design
 Responsive design techniques were implemented using CSS media queries to ensure that the website adapts to different screen sizes and devices.
 
-The website was tested on:
-
+#The website was tested on:
 Desktop view
 Tablet view
 Mobile view
 
 Flexbox layouts and responsive typography adjustments were used to improve the layout and usability of the website on smaller screens. 
-
-Testing and Debugging
-
+#Testing and Debugging
 The website was tested using browser developer tools to ensure that:
-
 Navigation links function correctly
 Layouts display properly
 Typography remains readable
@@ -118,13 +106,14 @@ Version 1.0
 ## References
 Mozilla Developer Network (2024) HTML Basics.  
 Visual Studio Code (2025) Code Editor Documentation. 
+
 Part 2 references
 W3Schools. 2025. CSS Tutorial. Available at: https://www.w3schools.com
 MDN Web Docs. 2025. CSS Reference. Available at: https://developer.mozilla.org
 Unsplash. 2025. Bakery Images. Available at: https://unsplash
 
-## Part 1 Details
-This submission includes the initial HTML structure of the website, proposal document, sitemap, and wireframes. Further improvements such as styling and advanced functionality will be completed in Part 2 and Part 3.
+## Part 1 & 2 Details
+This submission includes the initial HTML structure of the website, proposal document, sitemap, and wireframes. Further improvements such as advanced functionality will be completed in Part 3.
 
 
 ## Author
