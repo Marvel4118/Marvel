@@ -1,0 +1,145 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fffaf5;
+    color: #5c4033;
+}
+
+/* Header Styling */
+header{
+    background-color: #f8c8dc;
+    padding: 20px;
+}
+
+/* Navigation Styling */
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #5c4033;
+    font-weight: 0.3s;
+}
+
+/* Hover Effect */
+nav a:hover{
+    color: #d4a017;
+}
+
+/* Main Content */
+section{
+    background-color: #fff5ee;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Footer Styling */
+footer{
+    background-color: #f8c8dc;
+    color: #5c4033
+    text-aligns center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Typography Styling */
+h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: 5c4033;
+}
+
+h2{
+    font-size: 30px;
+    color: #d4a017;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 24px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Flex Layout */
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Box Styling */
+.box{
+    background-color: #fff5ee;
+    padding: 25px;
+    border-radius: 15px;
+    flex: 1;
+    min-width: 250px;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+    text-align: center;
+}
+
+/* Button styling */
+
+button{
+    background-color: #f8c8dc;
+    color: #5c4033;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover{
+    background-color: #d4a017;
+    color: white;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px){
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    body{
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
