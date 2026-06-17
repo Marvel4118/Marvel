@@ -99,7 +99,12 @@ Version 1.0
 - Developed enquiry form  
 - Inserted images into homepage and services page  
 - Added footer and basic layout  
-- Tested website in browser and fixed errors  
+- Tested website in browser and fixed errors
+- ### Part 3 - Feedback Improvements
+- Replaced table-based navigation with semantic HTML navigation.
+- Added the missing Enquiry page link.
+- Improved navigation styling and responsiveness.
+- Standardised navigation across all pages.
 
 ## References
 Mozilla Developer Network (2024) HTML Basics.  
