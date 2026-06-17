@@ -31,15 +31,7 @@ Week 4: Testing, debugging and final submission.
 Assessment: Part 2 – CSS Styling and Responsive Design
 Project Overview
 
-Sweet Rise Bakery is a bakery website developed to provide customers with information about the bakery’s products and services. The website was designed to create a visually appealing and user-friendly online presence for the bakery while improving accessibility and responsiveness across multiple devices. The website includes several pages that allow users to navigate through bakery information, products, enquiries, and contact details in a clear and organised manner. Website Goals and Objectives. in part2 I made several improvements on the website styling such as the navigation layout in the homnepage as well as adding the images on the folders that now display in the website, I also added the order now button that is required with the instructions given in part 2.
-
-The primary goal of the website is to establish a professional online presence for Sweet Rise Bakery. The website aims to:
-Promote bakery products and services
-Improve customer engagement
-Provide easy navigation for users
-Allow customers to enquire about products and services
-Create a visually appealing bakery-themed design
-Improve accessibility across desktop, tablet, and mobile devices Part 2 Improvements
+Sweet Rise Bakery is a bakery website developed to provide customers with information about the bakery’s products and services. The website was designed to create a visually appealing and user friendly online presence for the bakery while improving accessibility and responsiveness across multiple devices like accessibility across a desktop, tablet and mobile device. The website includes several pages that allow users to navigate through bakery information, products, enquiries, and contact details in a clear and organised manner. Website Goals and Objectives. in part2 I made several improvements on the website styling such as the navigation layout in the homnepage as well as adding the images on the folders that now display in the website, I also added the order now button that is required with the instructions given in part 2.
 
 Several improvements were implemented during Part 2 of the project to enhance the visual appearance and functionality of the website.
 These improvements include:
@@ -86,6 +78,12 @@ Responsive layouts work effectively
 Hover effects function correctly
 
 Minor layout adjustments and spacing corrections were made during testing to improve the user experience.
+# PART 3 Improvements
+Feedback Improvements
+- Replaced table based navigation with semantic navigation menu.
+- Added missing Enquiry page link.
+- Improved navigation consistency across all pages.
+- Updated CSS styling for navigation responsiveness.
 ## Sitemap
 - Home  
 - About  
