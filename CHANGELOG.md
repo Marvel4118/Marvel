@@ -31,3 +31,19 @@ Improved visual consistency across all pages
 ###
 - Corrected 
 links between pages
+
+### Part 2 Updates
+- Added CSS styling.
+- Improved website responsiveness.
+- Applied colour palette and typography.
+- Added media queries.
+
+### Part 3 Feedback Improvements
+- Replaced table-based navigation with semantic navigation.
+- Added missing Enquiry page link.
+- Improved navigation styling and responsiveness.
+
+### Version 3.1
+- Created script.js file.
+- Added JavaScript welcome popup.
+- Linked JavaScript to all website pages.
