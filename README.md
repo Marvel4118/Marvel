@@ -99,10 +99,14 @@ Version 1.0
 - Developed enquiry form  
 - Inserted images into homepage and services page  
 - Added footer and basic layout  
-- Tested website in browser and fixed errors
+- Tested website in browser and fixed error
+- Part 2
+- Added CSS styling.
+- Improved website responsiveness.
+- Applied colour palette and typography.
+- Added media queries.
 - ### Part 3 - Feedback Improvements
 - Replaced table-based navigation with semantic HTML navigation.
-- Added the missing Enquiry page link.
 - Improved navigation styling and responsiveness.
 - Standardised navigation across all pages.
 
@@ -115,8 +119,13 @@ W3Schools. 2025. CSS Tutorial. Available at: https://www.w3schools.com
 MDN Web Docs. 2025. CSS Reference. Available at: https://developer.mozilla.org
 Unsplash. 2025. Bakery Images. Available at: https://unsplash
 
-## Part 1 & 2 Details
-This submission includes the initial HTML structure of the website, proposal document, sitemap, and wireframes. Further improvements such as advanced functionality will be completed in Part 3.
+## Part 1, 2 & 3 Details
+This submission includes the initial HTML structure of the website, proposal document, sitemap, and wireframes. 
+Part 2
+- Added CSS styling.
+- Improved website responsiveness.
+- Applied colour palette and typography.
+- Added media queries.Further improvements such as advanced functionality will be completed in Part 3.
 
 
 ## Author
