@@ -31,9 +31,7 @@ Week 4: Testing, debugging and final submission.
 Assessment: Part 2 – CSS Styling and Responsive Design
 Project Overview
 
-Sweet Rise Bakery is a bakery website developed to provide customers with information about the bakery’s products and services. The website was designed to create a visually appealing and user friendly online presence for the bakery while improving accessibility and responsiveness across multiple devices like accessibility across a desktop, tablet and mobile device. The website includes several pages that allow users to navigate through bakery information, products, enquiries, and contact details in a clear and organised manner. Website Goals and Objectives. in part2 I made several improvements on the website styling such as the navigation layout in the homnepage as well as adding the images on the folders that now display in the website, I also added the order now button that is required with the instructions given in part 2.
-
-Several improvements were implemented during Part 2 of the project to enhance the visual appearance and functionality of the website.
+Sweet Rise Bakery is a bakery website developed to provide customers with information about the bakery’s products and services. The website was designed to create a visually appealing and user friendly online presence for the bakery while improving accessibility and responsiveness across multiple devices like accessibility across a desktop, tablet and mobile device. in part2 I made several improvements on the website styling such as the navigation layout in the homnepage as well as adding the images on the folders that now display in the website, I also added the order now button that is required with the instructions given in part 2. Several improvements were implemented during Part 2 of the project to enhance the visual appearance and functionality of the website.
 These improvements include:
 
 Creation of an external CSS stylesheet
@@ -46,7 +44,7 @@ Improved spacing, alignment, and layout structure
 Button styling and interactive effects
 Improved readability and user experience
 
-#The website design uses a bakery-themed colour palette consisting of:
+#The website design uses a bakery themed colour palette consisting of:
 Baby pink
 Cream
 Brown
@@ -57,6 +55,8 @@ Technologies Use
 The following technologies were used to develop the website:
 HTML5
 CSS3
+JavaScript 
+Microsoft edge
 Visual Studio Code
 GitHub
 
@@ -84,6 +84,24 @@ Feedback Improvements
 - Added missing Enquiry page link.
 - Improved navigation consistency across all pages.
 - Updated CSS styling for navigation responsiveness.
+Interactive Elements
+Welcome popup message implemented using JavaScript.
+Search functionality added to the Services page.
+CSS transitions and hover effects added for improved user experience.
+Forms and Validation
+Enquiry form created for customer enquiries.
+Contact form created for general communication.
+JavaScript validation implemented to ensure required fields are completed.
+Error handling implemented for invalid user input.
+Contact Information
+Contact details displayed on the Contact page.
+Embedded Google Map included to display business location.
+Search Engine Optimisation (SEO)
+Meta descriptions added to webpages.
+Appropriate page titles implemented.
+Heading tags used for content structure.
+Image alternative text included.
+Mobile friendly viewport meta tag implemented.
 ## Sitemap
 - Home  
 - About  
@@ -126,7 +144,10 @@ Part 2
 - Improved website responsiveness.
 - Applied colour palette and typography.
 - Added media queries.Further improvements such as advanced functionality will be completed in Part 3.
-
+Part 3
+- Created script.js file
+- Added JavaScript welcome message.
+- Implemented client side interaction using JavaScript.
 
 ## Author
 Marvel Akinwumi
