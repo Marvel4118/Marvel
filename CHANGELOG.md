@@ -2,8 +2,8 @@
 
 All notable changes made to this project are recorded here.
 
-#Part 1
 ## Version 1.0 
+#Part 1
 ### Added
 - Created homepage with navigation menu
 - Added About page with business information
