@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="decription" content="Sweet Rise Bakery offers freshly baked cakes, cupcakes, pastries, freahly baked bread and custom bakery services.">
+    <meta name="keyboards" content="bakery, cakes, cupcakes, pastries, freahly baked bread, muffins, custom cakes,Sweet Rise Bakery">
+
     <title>Contact- Sweet Rise Bakery</title>
 
     <link rel="stylesheet" href="css/style.css">
@@ -15,20 +17,58 @@
        <h1>Sweet Rise Bakery</h1>
 
        <nav>
-           <a href="index.html">Home</a>
-           <a href="about.html">About Us</a>
-           <a href="services.html">Services</a>
-           <a href="enquiry.html">Enquiry</a>
-           <a href="contact.html">Contact Us</a>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
        </nav>
 </header>
 
 <!--The contact section display contact details-->
 <section>
+    
+ <div class="contact-container">
+  
+  <div class="contact-column form-side">
     <h2>Contact Us</h2>
-    <p>Email: info@sweetrise.com</p>
-    <p>Phone: 012 345 6789</p>
-    <p>Location: Pretoria, South Africa</p>
+    <form onsubmit="return validateContactForm()">
+      
+      <div class="form-group">
+        <label for="contactName">Name:</label>
+        <input type="text" id="contactName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="contactEmail">Email:</label>
+        <input type="email" id="contactEmail" required>
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" required>
+      </div>
+
+      <div class="form-group">
+        <label for="contactMessage">Message:</label>
+        <textarea id="contactMessage" rows="5" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+
+  <div class="contact-column info-side">
+    <div class="info-details">
+      <p><strong>Email:</strong> info@sweetrise.com</p>
+      <p><strong>Phone:</strong> 012 345 6789</p>
+      <p><strong>Location:</strong> Pretoria, South Africa</p>
+    </div>
+  </div>
+
+</div>   
 
 <!--This maps section will display the location of the bakery-->
 <iframe
@@ -39,6 +79,8 @@
 </iframe>
     
 </section>
+
+<script src="js/script.js"></script>
     
 </body>
 </html>

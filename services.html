@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="decription" content="Sweet Rise Bakery offers freshly baked cakes, cupcakes, pastries, freahly baked bread and custom bakery services.">
+    <meta name="keyboards" content="bakery, cakes, cupcakes, pastries, freahly baked bread, muffins, custom cakes,Sweet Rise Bakery">
+    
     <title>Services</title>
 
     <link rel="stylesheet" href="css/style.css">
@@ -16,26 +19,31 @@
 
     <!--The navigation menu-->
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="services.html">Services</a>
-        <a href="enquiry.html">Enquiry</a>
-        <a href="contact.html">Contacct Us</a>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="enquiry.html">Enquiry</a></li>
+    <li><a href="contact.html">Contacct Us</a></li>
+    </ul>
     </nav>
 </header> 
 
 <!--The Services section shows the businesse's products and what the bakery offers-->
 <section>
+    
     <h2>Our Services</h2>
 
+    <input type="text" id="searchInput" placeholder="Search for cakes, Cupcakes, bread, pastries, scones, muffins." onkeyup="SearchProducts()">
+
     <!--Products offered-->
-    <p><strong>Products:</strong> Customized design cakes, cupcakes/muffins, butter scones, vetkoeks, assorted pastries all freshly baked.</p>
+    <p><div class="Products"> Customized design cakes, cupcakes/muffins, butter scones, vetkoeks, assorted pastries all freshly baked.</p></div>
     
     <img src="images/biscuits.jpg.png"alt="Customized birtday cake" width="300">
     <img src="images/pastery.jpg.jpg"alt="Customized birthday cake" width="300">
 
     <!--Services offered-->
-    <p><strong>Services</strong> Event catering, and special occasion baking, we also custom cake orders to you at your event on time.</p>
+    <p><div class="Services"> Event catering, and special occasion baking, we also custom cake orders to you at your event on time.</p></div>-------==
 
     <img src="images/birthdaycake.jpg.jpg"alt="Sweet rise catering event" width="300">
 </section>
@@ -44,6 +52,8 @@
 <footer>
     <p> Come on and make your orders now!<p>
 <footer>
+
+<script src="js/script.js"></script>    
 
 <body>
 <html>

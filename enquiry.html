@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="decription" content="Sweet Rise Bakery offers freshly baked cakes, cupcakes, pastries, freahly baked bread and custom bakery services.">
+    <meta name="keyboards" content="bakery, cakes, cupcakes, pastries, freahly baked bread, muffins, custom cakes,Sweet Rise Bakery">
+    
     <title>Enquiry- Sweet Rise Bakery</title>
 
     <link rel="stylesheet" href="css/style.css">
@@ -15,11 +18,13 @@
     <h1>Sweet Rise Bakery</h1>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="Services">Services</a>
-        <a href="enquiry.html">Enquiry</a>
-        <a href="contact.html">Contact</a>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="Services">Services</a></li>
+    <li><a href="enquiry.html">Enquiry</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
     </nav>
 <header>
 
@@ -27,36 +32,56 @@
 <section>
     <h2>Enquiry Form</h2>
 
-    <form>
-        <table>
+ <form onsubmit="reurn validateForm()">
+  <table>
+    <tr>
+      <td><label for="enquiryType">Enquiry Type:</label></td>
+      <td>
+        <select id="enquiryType" required style="width: 200px;">
+          <option value="">Select an option</option>
+          <option>Custom Cakes</option>
+          <option>Cupcakes</option>
+          <option>Pastries</option>
+          <option>Birthday Orders</option>
+          <option>Pricing Information</option>
+        </select>
+      </td>
+    </tr>
 
-        </tr>
-            <td><label for="name">Name:<label></td>
-            <td><input type="text" id="name" style="width: 200px;"></td>
-        <tr>
+    <tr>
+      <td><label for="phone">Phone Number:</label></td>
+      <td><input type="tel" id="phone" required style="width: 200px;"></td>
+    </tr>
 
-        </tr>
-            <td><label for="email">Email:</label> </td>
-            <td><input type="email" id="email" style="width:200px;"></td>
-        </tr>
+    <tr>
+      <td><label for="name">Name:</label></td>
+      <td><input type="text" id="name" required style="width: 200px;"></td>
+    </tr>
 
-        <tr>
-           </td><label for="message">Message:</label></td>
-           <td>
-              <textarea id="message" rows="4" style="width:200px;"></textarea>
-            </td>
-        </tr>
+    <tr>
+      <td><label for="email">Email:</label></td>
+      <td><input type="email" id="email" required style="width: 200px;"></td>
+    </tr>
 
-        <tr>
-            <td></td>
-            <td>
-                <button type="submit">Submit</button>
-            </td>
-        </tr>
+    <tr>
+      <td><label for="message">Message:</label></td>
+      <td>
+        <textarea id="message" rows="4" required style="width: 200px; resize: vertical;"></textarea>
+      </td>
+    </tr>
 
-        </table>
-    </form>
-</section>   
+    <tr>
+      <td></td>
+      <td>
+        <button type="submit">Submit</button>
+      </td>
+    </tr>
+  </table>
+</form>   
+     
+</section>  
+
+<script src="js/script.js"></script>
     
 </body>
 </html>
